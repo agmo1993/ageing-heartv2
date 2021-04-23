@@ -1,0 +1,134 @@
+{
+   "accessors" : 
+   [
+      {
+         "bufferView" : 0,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 2114,
+         "max" : [ 30.091094970703125, 30.091094970703125, 15.0 ],
+         "min" : [ -30.091094970703125, -30.091094970703125, -60.074413299560547 ],
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 0,
+         "componentType" : 5125,
+         "count" : 12672,
+         "type" : "SCALAR"
+      }
+   ],
+   "asset" : 
+   {
+      "generator" : "VTK",
+      "version" : "2.0"
+   },
+   "bufferViews" : 
+   [
+      {
+         "buffer" : 0,
+         "byteLength" : 25368,
+         "byteOffset" : 0
+      },
+      {
+         "buffer" : 1,
+         "byteLength" : 50688,
+         "byteOffset" : 0
+      }
+   ],
+   "buffers" : 
+   [
+      {
+         "byteLength" : 25368,
+         "uri" : "buffer8367761.bin"
+      },
+      {
+         "byteLength" : 50688,
+         "uri" : "buffer8387664.bin"
+      }
+   ],
+   "cameras" : 
+   [
+      {
+         "perspective" : 
+         {
+            "aspectRatio" : 2.39937106918239,
+            "yfov" : 0.52359877559829882,
+            "zfar" : 339.51229310654173,
+            "znear" : 124.12462954436347
+         },
+         "type" : "perspective"
+      }
+   ],
+   "materials" : 
+   [
+      {
+         "pbrMetallicRoughness" : 
+         {
+            "baseColorFactor" : [ 1.0, 1.0, 1.0, 1.0 ],
+            "metallicFactor" : 0.0,
+            "roughnessFactor" : 1.0
+         }
+      }
+   ],
+   "meshes" : 
+   [
+      {
+         "name" : "mesh0",
+         "primitives" : 
+         [
+            {
+               "attributes" : 
+               {
+                  "POSITION" : 0
+               },
+               "indices" : 1,
+               "material" : 0,
+               "mode" : 4
+            }
+         ]
+      }
+   ],
+   "nodes" : 
+   [
+      {
+         "mesh" : 0,
+         "name" : "mesh0"
+      },
+      {
+         "camera" : 0,
+         "matrix" : 
+         [
+            -0.1130945172701871,
+            -0.44661081621676185,
+            0.88755191904565289,
+            0.0,
+            0.99355210572300834,
+            -0.043650136016650645,
+            0.10463689043116757,
+            0.0,
+            -0.0079902050536655722,
+            0.89366293671827191,
+            0.44866770795241623,
+            0.0,
+            -0.18007690246857799,
+            20.140666280069183,
+            -209.13395190977107,
+            1.0
+         ],
+         "name" : "Camera Node"
+      },
+      {
+         "children" : [ 0, 1 ],
+         "name" : "Renderer Node"
+      }
+   ],
+   "scene" : 0,
+   "scenes" : 
+   [
+      {
+         "name" : "Layer 0",
+         "nodes" : [ 2 ]
+      }
+   ]
+}
